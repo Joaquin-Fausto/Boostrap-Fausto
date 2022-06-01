@@ -1,3 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 .nav-item{
     background-color: aqua;
+}
+header{
+}
+
+footer{
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0px;
+    padding: 0px 0px;
+    justify-content: stretch;
+    align-items:flex-end;
+    background-color:  rgb(16, 124, 112);
+    border: 2px solid
+}
+footer .pagos{
+    padding-bottom: 225px;
+}
+footer .datos{
+    padding-bottom: 225px;
+}
+footer a{
+    color: rgb(235, 229, 212);
+    font-size: 20px;
+
+}
+footer a:hover{
+    color: rgb(6, 6, 6);
+    transform: scale(1.5);
+}
+footer li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    
 }
