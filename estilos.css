@@ -3,11 +3,18 @@
     padding: 0%;
 }
 .nav-item{
-    background-color: aqua;
+    background-color:rgb(16, 124, 112);
 }
 header{
+    background-color: rgb(16, 124, 112);
 }
-
+body{
+    background-color: rgb(231, 215, 195);
+}
+.card{
+    background-color: rgb(231, 215, 195);
+    border: 0ch;
+}
 footer{
     width: 100%;
     max-width: 1220px;
