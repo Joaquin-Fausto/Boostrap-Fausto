@@ -7,6 +7,29 @@
 }
 header{
     background-color: rgb(16, 124, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    align-items: flex-end;
+}
+header h1{
+    float: left;
+    text-align: left;
+    color: rgb(249, 243, 231);
+
+}
+
+header li{
+    display: inline-block;
+    width: auto;
+    padding: 0%;
+}
+header li a{
+    text-decoration: none;
+    color: rgb(244, 239, 227);
+}
+header li a:hover{
+    color: rgb(16, 16, 17);
+    transform: scale(1.2);
 }
 body{
     background-color: rgb(231, 215, 195);
@@ -47,4 +70,16 @@ footer li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     
+}
+h3{
+    color: rgb(227, 235, 241);
+    background-color: rgb(16, 124, 112);
+    text-align: center;
+    font-size: 30px;
+    border-style: double;
+    border-radius: 30px;
+    border-width: 20px;
+}
+.row{
+    justify-content: space-evenly;
 }
