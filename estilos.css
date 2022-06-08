@@ -1,86 +1,90 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-.nav-item{
-    background-color:rgb(16, 124, 112);
-}
-header{
-    background-color: rgb(16, 124, 112);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 50px;
-    align-items: flex-end;
-}
-header h1{
-    float: left;
-    text-align: left;
-    color: rgb(249, 243, 231);
-
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-header li{
-    display: inline-block;
-    width: auto;
-    padding: 0%;
-}
-header li a{
-    text-decoration: none;
-    color: rgb(244, 239, 227);
-}
-header li a:hover{
-    color: rgb(16, 16, 17);
-    transform: scale(1.2);
-}
-body{
-    background-color: rgb(231, 215, 195);
-}
-.card{
-    background-color: rgb(231, 215, 195);
-    border: 0ch;
-}
-footer{
-    width: 100%;
-    max-width: 1220px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 0px;
-    padding: 0px 0px;
-    justify-content: stretch;
-    align-items:flex-end;
-    background-color:  rgb(16, 124, 112);
-    border: 2px solid
-}
-footer .pagos{
-    padding-bottom: 225px;
-}
-footer .datos{
-    padding-bottom: 225px;
-}
-footer a{
-    color: rgb(235, 229, 212);
-    font-size: 20px;
-
-}
-footer a:hover{
-    color: rgb(6, 6, 6);
-    transform: scale(1.5);
-}
-footer li{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    
-}
-h3{
-    color: rgb(227, 235, 241);
-    background-color: rgb(16, 124, 112);
-    text-align: center;
-    font-size: 30px;
-    border-style: double;
-    border-radius: 30px;
-    border-width: 20px;
-}
-.row{
-    justify-content: space-evenly;
+.nav-item {
+  background-color: rgb(16, 124, 112);
 }
 
+header {
+  background-color: rgb(16, 124, 112);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  align-items: flex-end;
+}
+header h1 {
+  float: left;
+  text-align: left;
+  color: rgb(249, 243, 231);
+}
+header li {
+  display: inline-block;
+  width: auto;
+  padding: 0%;
+}
+header li a {
+  text-decoration: none;
+  color: rgb(249, 243, 231);
+}
+header li a:hover {
+  color: rgb(16, 16, 17);
+  transform: scale(1.2);
+}
+
+body {
+  background-color: rgb(231, 215, 195);
+}
+
+.card {
+  background-color: rgb(249, 243, 231);
+  border: 0ch;
+}
+
+footer {
+  width: 100%;
+  max-width: 1220px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  padding: 0px 0px;
+  justify-content: stretch;
+  align-items: flex-end;
+  background-color: rgb(16, 124, 112);
+  border: 2px solid;
+}
+footer .pagos {
+  padding-bottom: 225px;
+}
+footer .datos {
+  padding-bottom: 225px;
+}
+footer a {
+  color: rgb(249, 243, 231);
+  font-size: 20px;
+}
+footer a:hover {
+  color: rgb(6, 6, 6);
+  transform: scale(1.5);
+}
+footer li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+h3 {
+  color: rgb(249, 243, 231);
+  background-color: rgb(16, 124, 112);
+  text-align: center;
+  font-size: 30px;
+  border-style: double;
+  border-radius: 30px;
+  border-width: 20px;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=estilos.css.map */
