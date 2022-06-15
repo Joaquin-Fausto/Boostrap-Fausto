@@ -29,7 +29,7 @@ header{
             text-decoration: none;
             color: $color2;
             &:hover{
-                color: rgb(16, 16, 17);
+                color: purple;
                 transform: scale(1.2);
             }
         }
@@ -77,15 +77,35 @@ footer{
         font-size: 17px;
     }
 }
-h3{
-    color: $color2;
-    background-color: $color1;
+@mixin prod ($color, $bcolor, $fsize) {
+    color: $color;
+    background-color: $bcolor;
+    font-size: $fsize;
+}
+.prod1{
+    @include prod($color2, $color1, 30px)
     text-align: center;
-    font-size: 30px;
     border-style: double;
     border-radius: 30px;
     border-width: 20px;
 }
+.prod2{
+    @extend .prod1
+}
 .row{
     justify-content: space-evenly;
 }
+$mapa1: (
+    50px: orange,
+    40px: purple,
+    30px: blue,
+    20px: red
+);
+
+    @each $size, $colores in $mapa1 {
+        .maps-#{$colores} {
+        background-color: antiquewhite;
+        height: auto;
+        width: auto;
+    }
+        }

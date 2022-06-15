@@ -4,40 +4,47 @@
 }
 
 .nav-item {
-  background-color: rgb(16, 124, 112);
+  background-color: #107c70;
 }
 
 header {
-  background-color: rgb(16, 124, 112);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #107c70;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 50px;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
+
 header h1 {
   float: left;
   text-align: left;
-  color: rgb(249, 243, 231);
+  color: #f9f3e7;
 }
+
 header li {
   display: inline-block;
   width: auto;
   padding: 0%;
 }
+
 header li a {
   text-decoration: none;
-  color: rgb(249, 243, 231);
+  color: #f9f3e7;
 }
+
 header li a:hover {
-  color: rgb(16, 16, 17);
-  transform: scale(1.2);
+  color: purple;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 body {
-  background-color: rgb(231, 215, 195);
+  background-color: #e7d7c3;
 }
 
 .card {
-  background-color: rgb(249, 243, 231);
+  background-color: #f9f3e7;
   border: 0ch;
 }
 
@@ -45,46 +52,83 @@ footer {
   width: 100%;
   max-width: 1220px;
   margin: auto;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px;
   padding: 0px 0px;
-  justify-content: stretch;
-  align-items: flex-end;
-  background-color: rgb(16, 124, 112);
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #107c70;
   border: 2px solid;
 }
+
 footer .pagos {
   padding-bottom: 225px;
 }
+
 footer .datos {
   padding-bottom: 225px;
 }
+
 footer a {
-  color: rgb(249, 243, 231);
+  color: #f9f3e7;
   font-size: 20px;
 }
+
 footer a:hover {
-  color: rgb(6, 6, 6);
-  transform: scale(1.5);
+  color: #060606;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
+
 footer li {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
 }
 
-h3 {
-  color: rgb(249, 243, 231);
-  background-color: rgb(16, 124, 112);
-  text-align: center;
+.prod1, .prod2 {
+  color: #f9f3e7;
+  background-color: #107c70;
   font-size: 30px;
+  text-align: center;
   border-style: double;
   border-radius: 30px;
   border-width: 20px;
 }
 
 .row {
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
+.maps-orange {
+  background-color: antiquewhite;
+  height: auto;
+  width: auto;
+}
+
+.maps-purple {
+  background-color: antiquewhite;
+  height: auto;
+  width: auto;
+}
+
+.maps-blue {
+  background-color: antiquewhite;
+  height: auto;
+  width: auto;
+}
+
+.maps-red {
+  background-color: antiquewhite;
+  height: auto;
+  width: auto;
+}
 /*# sourceMappingURL=estilos.css.map */
