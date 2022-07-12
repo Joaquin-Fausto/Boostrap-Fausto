@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/estilos.css">
     <meta name="description" content="Contactanos y consultá cualquier duda que tengas, poseemos un servicio de atención al cliente las 24hs">
     <meta name="keywords" content="contacto, problema, problemas, solucion, ayuda, cliente">
+    <script src="https://kit.fontawesome.com/a5d06179f3.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
@@ -22,13 +23,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Pages/Contacto.html">Contacto</a>
+                <a class="links" class="nav-link active" aria-current="page" href="/Pages/Contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Pages/Iniciar-sesion.html">Iniciar Sesion</a>
+                <a class="links" class="nav-link active" aria-current="page" href="/Pages/Iniciar-sesion.html">Iniciar Sesion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Pages/Carrito.html">Carrito</a>
+                <a class="links" class="nav-link active" aria-current="page" href="/Pages/Carrito.html">Nosotros</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -42,23 +43,23 @@
 </header>
 <main>
 
-    <form action="enviar.php" method="post" enctype="text/plain">
-            <label for="name1">Nombre</label>
+    <form class="papo" action="enviar.php" method="post" enctype="text/plain">
+            <label for="name1"><strong>Nombre:</strong></label>
             <Input type="text" placeholder="Escribe tu nombre" required name="name1"></Input><br>
-            <label for="apellido">Apellido</label>
+            <label for="apellido"><strong>Apellido:</strong></label>
             <Input type="text" placeholder="Escribe tu apellido" required name="apellido"></Input><br>
-            <label for="dni">Dni</label>
+            <label for="dni"><strong>Dni:</strong></label>
             <input type="number" placeholder="Escribe tu dni" required name="dni"><br>
-            <label for="teléfono">Teléfono</label>
+            <label for="teléfono"><strong>Teléfono:</strong></label>
             <input type="number" placeholder="Escribe tu télefono" name="teléfono" required><br>
-            <label for="mail">Email</label>
+            <label for="mail"><strong>Email:</strong></label>
             <input type="mail" placeholder="Escribe tu mail"  name="mail" required><br>
-            <label for="">Sexo:</label><br>
+            <label for=""><strong>Sexo:</strong></label><br>
             <label for="">Masculino</label>
             <input type="radio" name="Sexo"><br>
             <label for="">Femenino</label>
             <input type="radio" name="Sexo"><br>
-            <input type="submit" value="Enviar"><br>
+            <input class="boton" type="submit" value="Enviar"><br>
 
         </form>  
 </main>
@@ -85,7 +86,7 @@
         
         </div>
         <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.816721628955!2d-58.57005134982116!3d-34.659331280349086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7c50e76a93b%3A0x64c4371dc0320df6!2sArgentina%201440%2C%20B1704DIX%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1650418941927!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </section>   
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
